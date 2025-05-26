@@ -461,6 +461,10 @@
                                 <from>../distribution/bin</from>
                                 <includes>seata-setup.sh</includes>
                             </path>
+                            <path>
+                                <from>../distribution/licenses</from>
+                                <into>/seata-server/licenses</into>
+                            </path>
                         </paths>
                     </extraDirectories>
                     <skip>${image.publish.skip}</skip>

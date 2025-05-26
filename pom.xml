@@ -148,6 +148,9 @@
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>license-maven-plugin</artifactId>
+                        <configuration>
+                            <excludes>distribution/licenses/*</excludes>
+                        </configuration>
                         <executions>
                             <execution>
                                 <id>license-check</id>

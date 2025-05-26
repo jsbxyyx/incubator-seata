@@ -36,6 +36,7 @@ WORKDIR /$BASE_DIR
 ADD bin/ /seata-namingserver/bin
 ADD lib/ /seata-namingserver/lib
 ADD conf/ /seata-namingserver/conf
+ADD licenses/ /seata-namingserver/licenses
 ADD target /seata-namingserver/target
 ADD LICENSE /LICENSE
 ADD NOTICE /NOTICE

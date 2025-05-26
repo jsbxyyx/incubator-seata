@@ -37,6 +37,7 @@ ADD bin/ /seata-server/bin
 ADD ext/ /seata-server/ext
 ADD lib/ /seata-server/lib
 ADD conf/ /seata-server/conf
+ADD licenses/ /seata-server/licenses
 ADD target /seata-server/target
 ADD LICENSE /LICENSE
 ADD NOTICE /NOTICE
